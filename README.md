@@ -1,6 +1,6 @@
 # Green Spaces and Income Gaps: Mapping Philadelphia's Park and Recreation Equity
 
-![Bivariate Map of Park Access and Income](Parks%20&%20Rec%20Equity%20Map%201.png)
+![Bivariate Map of Park Access and Income](Results_Pictures/Parks%20&%20Rec%20Equity%20Map%201.png)
 
 ## Project Overview
 
@@ -31,13 +31,13 @@ The findings are presented through a combination of maps for spatial visualisati
 
 The thematic and bivariate maps clearly illustrate the geographic distribution of both income and park access. There are strong visual correlations in areas like Northwest Philadelphia and Center City (High Income/High Access) and in parts of North and Southwest Philadelphia (Low Income/Low Access).
 
-![Side-by-side Thematic Maps](Parks%20&%20Rec%20Equity%20Thematic%20Map%201.png)
+![Side-by-side Thematic Maps](Results_Pictures/Parks%20&%20Rec%20Equity%20Thematic%20Map%201.png)
 
 ### The Statistical Story: A Weak Correlation
 
 While the maps suggest a link, a scatter plot was created to test the statistical relationship between income and park access.
 
-![Scatter Plot of Income vs. Park Access](Park%20Equity%20Relationship%20Chart.jpg)
+![Scatter Plot of Income vs. Park Access](Results_Pictures/Park%20Equity%20Relationship%20Chart.jpg)
 
 The resulting **R-squared value is 0.03**. This is a surprisingly low value, indicating that a simple linear model of income can only explain 3% of the variation in park access. This weak correlation suggests that while a visual relationship exists, income alone is not the sole or primary predictor of park access in Philadelphia when measured this way.
 
@@ -45,7 +45,7 @@ The resulting **R-squared value is 0.03**. This is a surprisingly low value, ind
 
 The histogram of park access reveals why the correlation is so weak.
 
-![Histogram of Park Access](Park%20Equity%20Histogram.jpg)
+![Histogram of Park Access](Results_Pictures/Park%20Equity%20Histogram.jpg)
 
 The chart shows a heavily skewed distribution. A vast majority of neighbourhoods have nearly 100% access, confirmed by the **median access value of 99.9%**. This creates the large cluster of points at the top of the scatter plot, which flattens the trendline. The key takeaway is not a gradual decline in access with income, but rather a city where most are well-served, while a significant "long tail" of neighbourhoods are left with very limited access.
 
